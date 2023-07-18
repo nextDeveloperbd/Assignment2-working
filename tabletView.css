@@ -7,4 +7,19 @@
         width: 100%;
         padding: 10px 10px 10px 10px;  
     }
+    .gamer-container{
+        margin-top: 50px;
+    }
+    .gamer-section{
+       flex-direction: column;
+       width: 100%;
+    }
+    .gamer-image{
+        width: 100%;
+        padding: 20px 50px;
+    }
+    .gamer-details{
+        width: 100%;
+        padding: 0 30px;
+    }
 }

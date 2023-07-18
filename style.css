@@ -56,7 +56,7 @@ btn-menu{
 
 /* Banner Section */
 .banner-section{
-    background-color: rgba(230, 187, 194, 0.534);
+    background-color: #fff9fc;
     height: 530px;
 }
 .banner-container{
@@ -98,8 +98,6 @@ btn-menu{
 }
 .icon-1{
     color: red;
-   
-    
     /* padding: 10px; */
     border-radius: 50%;
     margin-right: 15px;
@@ -118,6 +116,59 @@ btn-menu{
 .banner-img img {
     width: 100%;
     padding: 10px 10px 10px 100px;
+
+}
+/* Gamer section */
+.gamer-container{
+    background-color:#fff9fc;
+}
+.gamer-section{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 50px 0;
+    align-items: center;
+}
+.gamer-image{
+    width: 60%;
+    padding: 20px 0;
+}
+.gamer-image img{
+    width: 100%;
+}
+.gamer-details{
+    width: 40%;
+    padding: 0 30px;
+}
+.gamer-details h1{
+    font-size: 30px;
+    background-image: linear-gradient(to bottom, red,blue);
+    color: transparent;
+    -webkit-background-clip: text;
+    text-align: right;
     
-    
+}
+.gamer-paragraph{
+    font-size: 20px;
+    padding: 15px 0;
+    text-align: right;
+}
+.gamer-btn{
+    padding: 10px 18px ;
+    background-color: #ff42a5;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}
+.gamer-details a{
+    text-align: right;
+    display: block;
+    padding: 15px 0;
+}
+.purpose{
+    text-align: right;
+    font-size: 14px;
+}
+.gamer-details h3{
+    text-align: right;
 }
