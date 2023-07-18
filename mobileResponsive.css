@@ -7,4 +7,28 @@
         flex-direction: column;
         row-gap: 20px;
     }
+    .banner-section{
+        background-color: rgba(230, 187, 194, 0.534);
+        height: 648px;
+    }
+    .banner-container{
+       flex-direction: column;
+       width: 100%;
+       width: 90%;
+    margin: auto;
+    padding: 5px0;
+    }
+    .banner-goat{
+        font-size: 30px ;
+        
+        
+    }
+    .banner-img{
+        width: 100%;
+        
+    }
+    .banner-img img {
+        width: 100%;
+        padding: 10px 10px 10px 10px;  
+    }
 }

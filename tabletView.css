@@ -1,0 +1,10 @@
+@media screen and (min-width:576px) and (max-width:792px) {
+    .banner-section{
+        background-color: rgba(230, 187, 194, 0.534);
+        height: 370px;
+    }
+    .banner-img img {
+        width: 100%;
+        padding: 10px 10px 10px 10px;  
+    }
+}
