@@ -8,7 +8,7 @@
         row-gap: 20px;
     }
     .banner-section{
-        background-color: rgba(230, 187, 194, 0.534);
+        background-color:#fff9fc;
         height: 648px;
     }
     .banner-container{
@@ -32,7 +32,7 @@
         padding: 10px 10px 10px 10px;  
     }
     .gamer-container{
-        margin-top: 50px;
+       
     }
     .gamer-section{
        flex-direction: column;
@@ -45,5 +45,12 @@
     .gamer-details{
         width: 100%;
         padding: 0 30px;
+    }
+    .online-games-container{
+        flex-direction: column;
+    }
+    .games{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }

@@ -22,4 +22,12 @@
         width: 100%;
         padding: 0 30px;
     }
+    /* Online game */
+    .online-games-container{
+        flex-direction: column;
+    }
+    .games{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

@@ -172,3 +172,67 @@ btn-menu{
 .gamer-details h3{
     text-align: right;
 }
+
+/* Online Games */
+.online-games-container{
+    width: 90%;
+    margin: auto;
+}
+.online-games-container h1{
+    text-align: center;
+    font-size: 30px;
+}
+.online-games-container h1 span{
+    
+    background-image: linear-gradient(to bottom, red,blue);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.online-games-container p{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
+.games{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.game{
+    padding: 20px;
+    border-radius: 20px;
+}
+.game img{
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.image{
+    
+    background-blend-mode: multiply;
+}
+.game h4{
+    padding: 5px 10px;
+}
+
+.position-play{
+    position: relative;
+}
+.play-btn{
+    font-size: 30px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    background-color: white;
+    padding: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image:hover{
+    box-shadow: 2px 2px 5px 5px rgb(209, 29, 29);
+    background: linear-gradient(90deg, red, blue);
+    background-blend-mode: multiply;
+}
