@@ -287,3 +287,25 @@ btn-menu{
     top: 390px;
     left: -48px;
 }
+
+/* various games section */
+.game-card-container{
+    margin-top: 80px;
+}
+.game-cards{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.card img{
+    width: 40px;
+}
