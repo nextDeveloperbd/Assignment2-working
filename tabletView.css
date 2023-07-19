@@ -14,13 +14,24 @@
        flex-direction: column;
        width: 100%;
     }
-    .gamer-image{
+    .gamer-image {
         width: 100%;
-        padding: 20px 50px;
+        padding: 20px 20px;
     }
-    .gamer-details{
+
+    .gamer-details {
         width: 100%;
-        padding: 0 30px;
+        padding: 0 20px;
+
+    }
+    .gamer-details h1, .gamer-paragraph, .gamer-details a, .purpose, .gamer-details h3 {
+        text-align: center;
+    }
+    .purpose{
+        padding: 10px 0;
+    }
+    .gamer-details a {
+        padding: 10px 0;
     }
     /* Online game */
     .online-games-container{
@@ -69,6 +80,13 @@
         position: absolute;
         top: 580px;
         left: -48px;
+    }
+    .game-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 10px;
+        column-gap: 5px;
+        padding: 0 10px;
     }
     .card {
         display: flex;

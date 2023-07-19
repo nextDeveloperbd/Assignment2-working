@@ -36,19 +36,38 @@
         padding: 10px 10px 10px 10px;
     }
 
+    /* Gamer section */
+
     .gamer-section {
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 100%;
     }
 
     .gamer-image {
         width: 100%;
-        padding: 20px 50px;
+        padding: 20px 20px;
     }
 
     .gamer-details {
         width: 100%;
-        padding: 0 30px;
+        padding: 0 20px;
+
+    }
+
+    .gamer-details h1,
+    .gamer-paragraph,
+    .gamer-details a,
+    .purpose,
+    .gamer-details h3 {
+        text-align: center;
+    }
+
+    .purpose {
+        padding: 10px 0;
+    }
+
+    .gamer-details a {
+        padding: 10px 0;
     }
 
     /* Online Games */
@@ -102,12 +121,10 @@
     .play-game-img {
         width: 100%;
         padding-left: 20px;
-
     }
 
     .play-game-img img {
         width: 100%;
-
     }
 
     .images {
@@ -120,6 +137,15 @@
         top: 270px;
         left: -48px;
     }
+
+    .game-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 10px;
+        column-gap: 5px;
+        padding: 0 5px;
+    }
+
     .card {
         display: flex;
         align-items: center;
