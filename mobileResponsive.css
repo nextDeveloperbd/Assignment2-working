@@ -120,6 +120,11 @@
         top: 270px;
         left: -48px;
     }
+    .card {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+    }
 
     /* footer */
     .footer-section {
