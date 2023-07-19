@@ -34,13 +34,15 @@
         padding: 10px 0;
     }
     /* Online game */
-    .online-games-container{
-        flex-direction: column;
-    }
-    .games{
-        display: grid;
+    .card-container{
         grid-template-columns: repeat(2, 1fr);
+        row-gap: 10px;
     }
+
+    .container p{
+        margin-top: 15px;
+        text-align: center;
+      }
     /* play game section */
     .play-game-container{
         flex-direction: column;

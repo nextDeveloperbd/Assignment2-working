@@ -209,95 +209,71 @@
 }
 
 /* Online Games */
-.online-games-container {
+.online-game{
+    text-align: center;
+    margin-top: 20px;
+}
+.online-game h2{
+    font-size: 35px;
+}
+.online-game p{
+    padding: 20px 0;
+}
+.card-container{
     width: 90%;
     margin: auto;
-    margin-top: 40px;
-}
-
-.online-games-container h1 {
-    text-align: center;
-    font-size: 30px;
-}
-
-.online-games-container p {
-    text-align: center;
-    padding: 15px 0;
-    font-size: 14px;
-}
-
-.games {
     display: grid;
+    column-gap: 10px;
     grid-template-columns: repeat(4, 1fr);
 }
 
-.game {
-    padding: 20px;
-    border-radius: 20px;
-}
-
-.game img {
-    width: 100%;
-    border-radius: 20px;
-    transition: 0.5s;
-}
-
-
-
-.game h4 {
-    padding: 5px 10px;
-}
-
-.position-play {
+.container {
     position: relative;
-   transition: 0.5s;
-}
-
-.image:hover {
-    opacity: 0.4;
-    box-shadow: 2px 2px 5px 5px rgb(209, 29, 29);
-    background: linear-gradient(90deg, red, blue);
-    background-blend-mode: multiply;
-}
-
-.play-btn {
-    font-size: 30px;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    background-color: white;
-    padding: 15px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: 0.5s;
+    width: 100%;
+    padding: 10px;
+  }
+  .container p{
+    margin-top: 10px;
+  }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
     
-}
-
-.watch {
-    font-size: 18px;
-    font-weight: bold;
-    position: absolute;
-    top: 52%;
-    left: 35%;
-    padding: 15px;
-    color: rgb(184, 27, 79);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  }
+  
+  .inside {
+    transition: .5s ease;
     opacity: 0;
-    transition: 0.5s;
-}
-.position-play:hover .play-btn {
-    opacity: 100;  
-}
-.position-play:hover .watch {
-    opacity: 100;  
-}
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+    box-shadow: 2px 1px 2px 5px red;
+    border-radius: 10px;
+  }
+  
+  .container:hover .inside {
+    opacity: 1;
+  }
+  .play-btn{
+    font-size: 25px;
+    
+  }
+  .watch {
+    color: rgb(180, 88, 104);
+    font-size: 16px;
+    padding: 10px 0;
+  }
 
 /* Play game section */
 .play-game-section {
@@ -382,7 +358,7 @@
 }
 
 .card img {
-    width: 40px;
+    width: 30px;
 }
 
 /* footer */
@@ -466,3 +442,4 @@
 .copyright {
     color: rgb(153, 142, 142);
 }
+

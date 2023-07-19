@@ -71,28 +71,19 @@
     }
 
     /* Online Games */
-    .online-games-container {
-        flex-direction: column;
-    }
-
-    .watch {
-        font-size: 16px;
-        font-weight: bold;
-        position: absolute;
-        top: 52%;
-        left: 40%;
-        padding: 15px;
-        color: rgb(184, 27, 79);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .games {
-        display: grid;
+    .card-container{
         grid-template-columns: repeat(1, 1fr);
+        row-gap: 10px;
     }
 
+    .container p{
+        margin-top: 15px;
+        text-align: center;
+      }
+   
+      .online-game h2{
+        font-size: 25px;
+    }
     /* Play games section */
     .play-game-container {
         flex-direction: column;
@@ -114,7 +105,7 @@
 
     .play-game-details p {
         font-size: 20px;
-        padding-left: 0;
+        padding-left: 10px;
         margin-bottom: 20px;
     }
 
@@ -140,10 +131,10 @@
 
     .game-cards {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         row-gap: 10px;
-        column-gap: 5px;
-        padding: 0 5px;
+        column-gap: 0px;
+        padding: 0 10px;
     }
 
     .card {
