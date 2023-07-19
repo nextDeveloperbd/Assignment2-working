@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+.linear-text{
+    background-image: linear-gradient(to bottom, red,blue);
+    color: transparent;
+    -webkit-background-clip: text;
+}
 
 /* Header Section */
 .header-section{
@@ -69,11 +74,7 @@ btn-menu{
 }
 .banner-goat{
     font-size: 40px ;
-    padding: 20px 0;
-    background-image: linear-gradient(to bottom, red,blue);
-    color: transparent;
-    -webkit-background-clip: text;
-    
+    padding: 20px 0;   
 }
 .banner-paragraph{
     padding: 5px 0;
@@ -83,30 +84,27 @@ btn-menu{
     margin-top: 15px;
     display: flex;
     column-gap: 10px;
+    
 }
 .btn-sign{
     padding: 10px 20px;
     border-radius: 15px;
     background-color: #ff42a5;
     border: none;
+    color: white;
 }
 .btn-rogue{
     padding: 10px 20px;
     border-radius: 15px;
     background-color: #4ec5f7;
     border: none;
+    color: white;
 }
-.icon-1{
+.icon-1,.icon-2{
     color: red;
-    /* padding: 10px; */
-    border-radius: 50%;
-    margin-right: 15px;
 }
-.icon-2{
-    color: red;
-    margin-right: 15px;
-}
-.icon-3{
+
+.icon-1,.icon-2,.icon-3{
     margin-right: 10px;
 }
 .banner-img{
@@ -142,15 +140,11 @@ btn-menu{
 }
 .gamer-details h1{
     font-size: 30px;
-    background-image: linear-gradient(to bottom, red,blue);
-    color: transparent;
-    -webkit-background-clip: text;
     text-align: right;
-    
 }
 .gamer-paragraph{
     font-size: 20px;
-    padding: 15px 0;
+    padding: 10px 0;
     text-align: right;
 }
 .gamer-btn{
@@ -163,7 +157,7 @@ btn-menu{
 .gamer-details a{
     text-align: right;
     display: block;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 .purpose{
     text-align: right;
@@ -182,12 +176,7 @@ btn-menu{
     text-align: center;
     font-size: 30px;
 }
-.online-games-container h1 span{
-    
-    background-image: linear-gradient(to bottom, red,blue);
-    color: transparent;
-    -webkit-background-clip: text;
-}
+
 .online-games-container p{
     text-align: center;
     padding: 15px 0;
@@ -231,6 +220,18 @@ btn-menu{
     justify-content: center;
     align-items: center;
 }
+.watch{
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 52%;
+    left: 35%;
+    padding: 15px;
+    color: rgb(184, 27, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .image:hover{
     box-shadow: 2px 2px 5px 5px rgb(209, 29, 29);
     background: linear-gradient(90deg, red, blue);
@@ -243,7 +244,6 @@ btn-menu{
     
 }
 .play-game-container{
-    
     width: 90%;
     /* margin: auto; */
     display: flex;
@@ -260,16 +260,13 @@ btn-menu{
 .play-game-details h2{
     font-size: 30px;
     margin-bottom: 20px;
+    
 }
 .play-game-details p{
     font-size: 20px;
     padding-left: 100px;
 }
-.play-game-title{
-    background-image: linear-gradient(to bottom, red,blue);
-    color: transparent;
-    -webkit-background-clip: text;
-}
+
 .play-game-img{
     width: 50%;
     
@@ -282,6 +279,7 @@ btn-menu{
     position: relative;
 }
 .doll{
+    border-radius: 10px;
     max-width: 120px;
     position: absolute;
     top: 390px;
@@ -290,7 +288,7 @@ btn-menu{
 
 /* various games section */
 .game-card-container{
-    margin-top: 80px;
+    margin: 80px 0;
 }
 .game-cards{
     width: 80%;
@@ -304,7 +302,14 @@ btn-menu{
 .card{
     display: flex;
     align-items: center;
-    gap: 5px;
+   row-gap: 10px;
+    padding: 9px 18px;
+}
+.card:hover{
+    color: red;
+    border: 1px solid red;
+    border-radius: 30px;
+    padding: 8px 17px;
 }
 .card img{
     width: 40px;
